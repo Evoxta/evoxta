@@ -172,24 +172,36 @@
             <p>Call: <a href="https://1317.3cx.cloud/ethansebastian">Click here, press 'Chat', then click 'Call Us'</a></p>
           </div>
         </div>
-        <form  action="https://api.web3forms.com/submit" method="POST" class="rounded-3xl border border-white/10 bg-white/5 p-8">
-            <input type="hidden" name="access_key" value="c1c609ee-40d8-4014-beca-69ff050d9e4d">
-            <div class="grid gap-5 sm:grid-cols-2">
-            <div>
-              <label for="name" class="mb-2 block text-sm text-slate-300">Name</label>
-              <input id="name" type="text" placeholder="Your name" class="w-full rounded-2xl border border-white/10 bg-black/20 px-4 py-3 text-white outline-none transition placeholder:text-slate-500 focus:border-accent/50" />
-            </div>
-            <div>
-              <label for="email" class="mb-2 block text-sm text-slate-300">Email</label>
-              <input id="email" type="email" placeholder="you@example.com" class="w-full rounded-2xl border border-white/10 bg-black/20 px-4 py-3 text-white outline-none transition placeholder:text-slate-500 focus:border-accent/50" />
-            </div>
-          </div>
-          <div class="mt-5">
-            <label for="message" class="mb-2 block text-sm text-slate-300">Message</label>
-            <textarea id="message" rows="6" placeholder="Tell me about your project..." class="w-full rounded-2xl border border-white/10 bg-black/20 px-4 py-3 text-white outline-none transition placeholder:text-slate-500 focus:border-accent/50"></textarea>
-          </div>
-          <button type="submit" class="mt-5 rounded-full bg-accent px-6 py-3 font-medium text-white transition hover:bg-violet-500">Send Message</button>
-        </form>
+        <form action="https://api.web3forms.com/submit" method="POST" class="rounded-3xl border border-white/10 bg-white/5 p-8">
+  
+  <input type="hidden" name="access_key" value="c1c609ee-40d8-4014-beca-69ff050d9e4d">
+
+  <div class="grid gap-5 sm:grid-cols-2">
+    <div>
+      <label for="name" class="mb-2 block text-sm text-slate-300">Name</label>
+      <input id="name" name="name" type="text" placeholder="Your name"
+        class="w-full rounded-2xl border border-white/10 bg-black/20 px-4 py-3 text-white outline-none transition placeholder:text-slate-500 focus:border-accent/50" />
+    </div>
+
+    <div>
+      <label for="email" class="mb-2 block text-sm text-slate-300">Email</label>
+      <input id="email" name="email" type="email" placeholder="you@example.com"
+        class="w-full rounded-2xl border border-white/10 bg-black/20 px-4 py-3 text-white outline-none transition placeholder:text-slate-500 focus:border-accent/50" />
+    </div>
+  </div>
+
+  <div class="mt-5">
+    <label for="message" class="mb-2 block text-sm text-slate-300">Message</label>
+    <textarea id="message" name="message" rows="6"
+      placeholder="Tell me about your project..."
+      class="w-full rounded-2xl border border-white/10 bg-black/20 px-4 py-3 text-white outline-none transition placeholder:text-slate-500 focus:border-accent/50"></textarea>
+  </div>
+
+  <button type="submit" class="mt-5 rounded-full bg-accent px-6 py-3 font-medium text-white transition hover:bg-violet-500">
+    Send Message
+  </button>
+
+</form>
       </div>
     </section>
   </main>
